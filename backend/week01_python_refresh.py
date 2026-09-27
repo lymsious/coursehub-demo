@@ -1,7 +1,7 @@
 print("Courehub - Buoi 1")
-student = [
-    {"id": "24001683", "name": "Bui Ba Manh ngu", "major" : "KHDL"},
-    {"id": "24001722", "name": "Nguyen Son Tung", "major" : "KHDL"}
+students = [
+{"id": "22000001", "name": "Nguyen Minh Anh", "major": "KHDL"},
+{"id": "22000002", "name": "Tran Duc Long", "major": "KHDL"},
 ]
 
 courses = [
@@ -20,7 +20,7 @@ courses = [
 ]
 
 enrollments = [
-{"student_id": "24001668", "course_code": "INT2204"}
+{"student_id": "22000001", "course_code": "INT2204"}
 ]
 
 for course in courses:
@@ -51,6 +51,46 @@ print(can_enroll("22000002", "INT2204"))
 
 try:
     limit = int(input("Nhap so luong hoc phan muon hien thi: "))
-    print(courses[:limit])
+    print(courses[:limit], "\n")
 except ValueError:
     print("So luong phai la so nguyen")
+
+def search_courses(keyword):
+    normalized = keyword.strip().lower()
+    results = []
+    for course in courses:
+        code = course["code"].lower()
+        name = course["name"].lower()
+        if normalized in code or normalized in name:
+            results.append(course)
+    return results
+print(search_courses("web"))
+
+
+def enroll_student(student_id, course_code):
+    if not any(student["id"] == student_id for student in students):
+        return False, "sinh vien khong ton tai"
+    
+    if not any(course["code"] == course_code for course in courses):
+        return False, "mon hoc khong ton tai"
+
+    course = find_course(course_code)
+
+    if course["enrolled"] >= course["capacity"]:
+        return False, "lop hoc da du so luong"
+    
+    if any(item["student_id"] == student_id and item["course_code"] == course_code for item in enrollments):
+        return False, "sinh vien da dang ky mon hoc"
+        
+    enrollments.append({"student_id": student_id, "course_code": course_code})
+
+    course["enrolled"] += 1
+
+    return True, "dang ky thanh cong"
+
+print(enroll_student("22000001", "INT2204"))
+print(enroll_student("22000001", "INT2205"))
+print(enroll_student("24001722", "INT2204"))
+print(enroll_student("22000001", "MAT3500"))
+print(enroll_student("22000002", "INT2204"))
+
