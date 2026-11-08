@@ -36,12 +36,8 @@
         "header": [],
         "url": {
           "raw": "{{base_url}}/health",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "health"
-          ]
+          "host": ["{{base_url}}"],
+          "path": ["health"]
         }
       },
       "response": []
@@ -64,12 +60,8 @@
         "header": [],
         "url": {
           "raw": "{{base_url}}/courses?q=web&skip=0&limit=5",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "courses"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["courses"],
           "query": [
             {
               "key": "q",
@@ -112,12 +104,8 @@
         "header": [],
         "url": {
           "raw": "{{base_url}}/courses?q=web",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "courses"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["courses"],
           "query": [
             {
               "key": "q",
@@ -148,12 +136,8 @@
         "header": [],
         "url": {
           "raw": "{{base_url}}/courses?q=%20%20",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "courses"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["courses"],
           "query": [
             {
               "key": "q",
@@ -188,12 +172,8 @@
         "header": [],
         "url": {
           "raw": "{{base_url}}/courses?skip=0&limit=2",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "courses"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["courses"],
           "query": [
             {
               "key": "skip",
@@ -233,13 +213,8 @@
         "header": [],
         "url": {
           "raw": "{{base_url}}/courses/INT2204",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "courses",
-            "INT2204"
-          ]
+          "host": ["{{base_url}}"],
+          "path": ["courses", "INT2204"]
         }
       },
       "response": []
@@ -264,13 +239,8 @@
         "header": [],
         "url": {
           "raw": "{{base_url}}/courses/UNKNOWN",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "courses",
-            "UNKNOWN"
-          ]
+          "host": ["{{base_url}}"],
+          "path": ["courses", "UNKNOWN"]
         }
       },
       "response": []
@@ -300,12 +270,8 @@
         "header": [],
         "url": {
           "raw": "{{base_url}}/lecturers",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "lecturers"
-          ]
+          "host": ["{{base_url}}"],
+          "path": ["lecturers"]
         }
       },
       "response": []
@@ -334,12 +300,8 @@
         "header": [],
         "url": {
           "raw": "{{base_url}}/sections",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "sections"
-          ]
+          "host": ["{{base_url}}"],
+          "path": ["sections"]
         }
       },
       "response": []
@@ -368,12 +330,8 @@
         "header": [],
         "url": {
           "raw": "{{base_url}}/sections?available_only=true",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "sections"
-          ],
+          "host": ["{{base_url}}"],
+          "path": ["sections"],
           "query": [
             {
               "key": "available_only",
@@ -413,13 +371,8 @@
         "header": [],
         "url": {
           "raw": "{{base_url}}/sections/WEB-01",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "sections",
-            "WEB-01"
-          ]
+          "host": ["{{base_url}}"],
+          "path": ["sections", "WEB-01"]
         }
       },
       "response": []
@@ -444,13 +397,8 @@
         "header": [],
         "url": {
           "raw": "{{base_url}}/sections/UNKNOWN",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "sections",
-            "UNKNOWN"
-          ]
+          "host": ["{{base_url}}"],
+          "path": ["sections", "UNKNOWN"]
         }
       },
       "response": []
@@ -489,14 +437,8 @@
         },
         "url": {
           "raw": "{{base_url}}/sections/WEB-01/capacity",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "sections",
-            "WEB-01",
-            "capacity"
-          ]
+          "host": ["{{base_url}}"],
+          "path": ["sections", "WEB-01", "capacity"]
         }
       },
       "response": []
@@ -530,14 +472,8 @@
         },
         "url": {
           "raw": "{{base_url}}/sections/WEB-01/capacity",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "sections",
-            "WEB-01",
-            "capacity"
-          ]
+          "host": ["{{base_url}}"],
+          "path": ["sections", "WEB-01", "capacity"]
         }
       },
       "response": []
@@ -576,14 +512,8 @@
         },
         "url": {
           "raw": "{{base_url}}/sections/WEB-01/capacity",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "sections",
-            "WEB-01",
-            "capacity"
-          ]
+          "host": ["{{base_url}}"],
+          "path": ["sections", "WEB-01", "capacity"]
         }
       },
       "response": []
@@ -617,14 +547,8 @@
         },
         "url": {
           "raw": "{{base_url}}/sections/UNKNOWN/capacity",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "sections",
-            "UNKNOWN",
-            "capacity"
-          ]
+          "host": ["{{base_url}}"],
+          "path": ["sections", "UNKNOWN", "capacity"]
         }
       },
       "response": []
@@ -653,14 +577,8 @@
         "header": [],
         "url": {
           "raw": "{{base_url}}/students/22000001/enrollments",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "students",
-            "22000001",
-            "enrollments"
-          ]
+          "host": ["{{base_url}}"],
+          "path": ["students", "22000001", "enrollments"]
         }
       },
       "response": []
@@ -685,14 +603,8 @@
         "header": [],
         "url": {
           "raw": "{{base_url}}/students/99999999/enrollments",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "students",
-            "99999999",
-            "enrollments"
-          ]
+          "host": ["{{base_url}}"],
+          "path": ["students", "99999999", "enrollments"]
         }
       },
       "response": []
@@ -732,12 +644,8 @@
         },
         "url": {
           "raw": "{{base_url}}/enrollments",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "enrollments"
-          ]
+          "host": ["{{base_url}}"],
+          "path": ["enrollments"]
         }
       },
       "response": []
@@ -771,12 +679,8 @@
         },
         "url": {
           "raw": "{{base_url}}/enrollments",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "enrollments"
-          ]
+          "host": ["{{base_url}}"],
+          "path": ["enrollments"]
         }
       },
       "response": []
@@ -810,12 +714,8 @@
         },
         "url": {
           "raw": "{{base_url}}/enrollments",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "enrollments"
-          ]
+          "host": ["{{base_url}}"],
+          "path": ["enrollments"]
         }
       },
       "response": []
@@ -840,14 +740,8 @@
         "header": [],
         "url": {
           "raw": "{{base_url}}/enrollments/22000004/WEB-01",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "enrollments",
-            "22000004",
-            "WEB-01"
-          ]
+          "host": ["{{base_url}}"],
+          "path": ["enrollments", "22000004", "WEB-01"]
         }
       },
       "response": []
@@ -872,14 +766,99 @@
         "header": [],
         "url": {
           "raw": "{{base_url}}/enrollments/22000004/WEB-01",
-          "host": [
-            "{{base_url}}"
-          ],
-          "path": [
-            "enrollments",
-            "22000004",
-            "WEB-01"
+          "host": ["{{base_url}}"],
+          "path": ["enrollments", "22000004", "WEB-01"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "24 - GET enrollment-events",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/enrollment-events?student_id=22000001&event_type=CREATED&skip=0&limit=5",
+          "host": ["{{base_url}}"],
+          "path": ["enrollment-events"],
+          "query": [
+            {
+              "key": "student_id",
+              "value": "22000001"
+            },
+            {
+              "key": "event_type",
+              "value": "CREATED"
+            },
+            {
+              "key": "skip",
+              "value": "0"
+            },
+            {
+              "key": "limit",
+              "value": "5"
+            }
           ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "25 - GET enrollment-events without data",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/enrollment-events?student_id=99999999",
+          "host": ["{{base_url}}"],
+          "path": ["enrollment-events"],
+          "query": [
+            {
+              "key": "student_id",
+              "value": "99999999"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "26 - GET enrollment-events limit=0",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/enrollment-events?limit=0",
+          "host": ["{{base_url}}"],
+          "path": ["enrollment-events"],
+          "query": [
+            {
+              "key": "limit",
+              "value": "0"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "27 - GET enrollment-events limit=101",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "28 - GET enrollment-events wrong event_type",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
         }
       },
       "response": []
